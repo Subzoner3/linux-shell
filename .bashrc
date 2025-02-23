@@ -111,3 +111,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+
+# https://kb.uconn.edu/space/IKB/26050527301/Install+OneDrive+on+Linux
+# If you reboot the computer you will need to remount the remote using the command in step 17.
+# 17. Mount the remote by using the command:
+#rclone --vfs-cache-mode writes mount OneDrive: ~/OneDrive &
